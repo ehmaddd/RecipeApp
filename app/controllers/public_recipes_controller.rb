@@ -1,4 +1,4 @@
-class Recipes::PublicRecipesController < ApplicationController
+class Recipes < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
   end
